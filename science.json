@@ -1,0 +1,12 @@
+[
+  {
+    "question": "What planet is known as the Red Planet?",
+    "options": { "A": "Earth", "B": "Mars", "C": "Venus", "D": "Jupiter" },
+    "answer": "B"
+  },
+  {
+    "question": "Which gas do plants absorb?",
+    "options": { "A": "Oxygen", "B": "Nitrogen", "C": "Carbon Dioxide", "D": "Hydrogen" },
+    "answer": "C"
+  }
+]
