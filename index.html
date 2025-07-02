@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Select Test Series</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Select a Test Series</h1>
+  <div class="test-list">
+    <button onclick="startTest('math')">Math Test</button>
+    <button onclick="startTest('science')">Science Test</button>
+  </div>
+
+  <script>
+    function startTest(testId) {
+      window.location.href = `test.html?test=${testId}`;
+    }
+  </script>
+</body>
+</html>
