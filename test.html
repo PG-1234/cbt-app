@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CBT Test</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="palette">
+      <h3>Questions</h3>
+      <div id="palette"></div>
+    </div>
+    <div class="main">
+      <div id="questionBox">
+        <h2 id="qText">Loading...</h2>
+        <div id="options"></div>
+      </div>
+      <div class="controls">
+        <button onclick="prevQuestion()">Previous</button>
+        <button onclick="markReview()">Mark for Review</button>
+        <button onclick="nextQuestion()">Next</button>
+        <button onclick="submitTest()">Submit</button>
+      </div>
+      <div id="resultBox" style="display:none;"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
